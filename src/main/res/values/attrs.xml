@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CusScrollPickerView">
+        <attr name="cus_min_text_size" format="dimension" />
+        <attr name="cus_max_text_size" format="dimension" />
+        <attr name="cus_start_color" format="color" />
+        <attr name="cus_end_color" format="color" />
+        <attr name="cus_visible_item_count" format="integer" />
+        <!-- 是否循环滚动，默认为true，开启-->
+        <attr name="cus_is_circulation" format="boolean" />
+        <!-- 不允许父组件拦截触摸事件，设置为true为不允许拦截，此时该设置才生效 -->
+        <attr name="cus_disallow_intercept_touch" format="boolean" />
+    </declare-styleable>
+
+    <attr name="centered" format="boolean"/>
+    <attr name="selectedColor" format="color"/>
+    <attr name="strokeWidth" format="dimension"/>
+    <attr name="unselectedColor" format="color"/>
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+</resources>

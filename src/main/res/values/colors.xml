@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progress_dialog_bg">#00000000</color>
+    <color name="excute_dialog_bg">#33000000</color>
+    <color name="bg_dark">#ffd7d7d7</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="gray1">#ff666666</color>
+    <color name="gray2">#ff999999</color>
+    <color name="gray3">#ffcccccc</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
